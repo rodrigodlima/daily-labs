@@ -12,5 +12,6 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Bash](bash/README.md) | 1 |
 | [AWS](aws/README.md) | 1 |
 | [Terraform](terraform/README.md) | 1 |
+| [Ansible](ansible/README.md) | 1 |
 
 Daily log: [log/](log/)
