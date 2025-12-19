@@ -13,5 +13,7 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [AWS](aws/README.md) | 1 |
 | [Terraform](terraform/README.md) | 1 |
 | [Ansible](ansible/README.md) | 1 |
+| [Python](python/README.md) | 1 |
+| [Java](java/README.md) | 1 |
 
 Daily log: [log/](log/)
