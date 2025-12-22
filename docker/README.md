@@ -7,3 +7,9 @@ Short, practical notes collected while studying and testing.
 ```bash
 docker image prune -f
 ```
+
+## Inspect container IP
+
+```bash
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <id>
+```
