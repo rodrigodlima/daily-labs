@@ -7,3 +7,9 @@ Short, practical notes collected while studying and testing.
 ```bash
 git reset --soft HEAD~1
 ```
+
+## Show files changed in a commit
+
+```bash
+git show --stat <sha>
+```
