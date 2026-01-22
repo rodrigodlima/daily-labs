@@ -7,3 +7,9 @@ Short, practical notes collected while studying and testing.
 ```bash
 terraform fmt -recursive
 ```
+
+## Show a single resource from state
+
+```bash
+terraform state show aws_instance.web
+```
