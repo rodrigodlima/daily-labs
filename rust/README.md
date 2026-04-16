@@ -7,3 +7,9 @@ Short, practical notes collected while studying and testing.
 ```rust
 cargo check
 ```
+
+## Run clippy as errors
+
+```rust
+cargo clippy -- -D warnings
+```
