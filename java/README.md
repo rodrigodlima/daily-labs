@@ -7,3 +7,9 @@ Short, practical notes collected while studying and testing.
 ```java
 java Hello.java
 ```
+
+## List JVM flags in use
+
+```java
+java -XX:+PrintFlagsFinal -version | grep -i heap
+```
