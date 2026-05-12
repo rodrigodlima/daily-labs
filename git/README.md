@@ -13,3 +13,9 @@ git reset --soft HEAD~1
 ```bash
 git show --stat <sha>
 ```
+
+## Interactive staging of hunks
+
+```bash
+git add -p
+```
