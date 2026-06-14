@@ -13,3 +13,9 @@ kubectl get events -n <ns> --sort-by=.lastTimestamp -w
 ```bash
 kubectl debug -it <pod> --image=busybox --target=<container>
 ```
+
+## Restart a deployment
+
+```bash
+kubectl rollout restart deploy/<name>
+```
