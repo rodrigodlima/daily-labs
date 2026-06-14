@@ -14,3 +14,9 @@ IFS=$'\n\t'
 ```bash
 name="${1:-world}"
 ```
+
+## Loop over lines safely
+
+```bash
+while IFS= read -r line; do echo "$line"; done < file.txt
+```
