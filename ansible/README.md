@@ -13,3 +13,9 @@ ansible all -i inventory.ini -m ping
 ```bash
 ansible-playbook site.yml --check --diff
 ```
+
+## List hosts matched by a pattern
+
+```bash
+ansible webservers --list-hosts
+```
