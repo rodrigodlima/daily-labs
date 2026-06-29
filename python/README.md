@@ -13,3 +13,9 @@ python3 -m http.server 8080
 ```python
 cat file.json | python3 -m json.tool
 ```
+
+## Virtualenv in one line
+
+```python
+python3 -m venv .venv && . .venv/bin/activate
+```
