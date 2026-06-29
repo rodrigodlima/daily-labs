@@ -13,3 +13,9 @@ java Hello.java
 ```java
 java -XX:+PrintFlagsFinal -version | grep -i heap
 ```
+
+## Records
+
+```java
+record Point(int x, int y) {}
+```
