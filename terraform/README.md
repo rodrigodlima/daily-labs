@@ -13,3 +13,12 @@ terraform fmt -recursive
 ```bash
 terraform state show aws_instance.web
 ```
+
+## Import existing resource (block)
+
+```hcl
+import {
+  to = aws_s3_bucket.logs
+  id = "my-logs-bucket"
+}
+```
