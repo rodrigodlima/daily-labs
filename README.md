@@ -11,10 +11,10 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Kubernetes](kubernetes/README.md) | 3 |
 | [Bash](bash/README.md) | 3 |
 | [AWS](aws/README.md) | 3 |
-| [Terraform](terraform/README.md) | 2 |
-| [Ansible](ansible/README.md) | 2 |
-| [Python](python/README.md) | 2 |
-| [Java](java/README.md) | 2 |
+| [Terraform](terraform/README.md) | 3 |
+| [Ansible](ansible/README.md) | 3 |
+| [Python](python/README.md) | 3 |
+| [Java](java/README.md) | 3 |
 | [Rust](rust/README.md) | 2 |
 | [SRE](sre/README.md) | 2 |
 
