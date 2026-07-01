@@ -29,3 +29,7 @@ Page on user-facing impact (error rate, latency); keep cause-based alerts as tic
 ## Canary releases
 
 Ship to a small slice of traffic, compare SLIs with baseline, then promote or roll back automatically.
+
+## Runbooks
+
+Every page should link to a runbook: what it means, how to verify, how to mitigate, who to escalate to.
