@@ -66,3 +66,9 @@ match cmd {
     Cmd::Stop => stop(),
 }
 ```
+
+## Build release binary
+
+```rust
+cargo build --release
+```
