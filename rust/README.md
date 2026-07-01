@@ -72,3 +72,9 @@ match cmd {
 ```rust
 cargo build --release
 ```
+
+## Run tests with output
+
+```rust
+cargo test -- --nocapture
+```
