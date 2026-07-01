@@ -33,3 +33,7 @@ Ship to a small slice of traffic, compare SLIs with baseline, then promote or ro
 ## Runbooks
 
 Every page should link to a runbook: what it means, how to verify, how to mitigate, who to escalate to.
+
+## Capacity planning
+
+Track saturation trends and forecast; provision for peak plus N+1 redundancy, not average load.
