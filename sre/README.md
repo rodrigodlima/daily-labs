@@ -37,3 +37,7 @@ Every page should link to a runbook: what it means, how to verify, how to mitiga
 ## Capacity planning
 
 Track saturation trends and forecast; provision for peak plus N+1 redundancy, not average load.
+
+## Graceful degradation
+
+Prefer serving stale or partial results over failing completely when a dependency is down.
