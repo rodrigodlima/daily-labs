@@ -5,7 +5,7 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 
 | Topic | Notes |
 |---|---|
-| [Linux](linux/README.md) | 13 |
+| [Linux](linux/README.md) | 16 |
 | [Git](git/README.md) | 13 |
 | [Docker](docker/README.md) | 13 |
 | [Kubernetes](kubernetes/README.md) | 13 |
@@ -16,6 +16,6 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Python](python/README.md) | 12 |
 | [Java](java/README.md) | 11 |
 | [Rust](rust/README.md) | 11 |
-| [SRE](sre/README.md) | 9 |
+| [SRE](sre/README.md) | 10 |
 
 Daily log: [log/](log/)
