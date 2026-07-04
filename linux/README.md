@@ -91,3 +91,9 @@ find . -type f -name '*.py' | xargs wc -l | sort -n | tail
 ```bash
 ip route show
 ```
+
+## DNS lookup with dig short
+
+```bash
+dig +short example.com A
+```
