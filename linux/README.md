@@ -85,3 +85,9 @@ echo 'vm.max_map_count=262144' | sudo tee /etc/sysctl.d/99-es.conf && sudo sysct
 ```bash
 find . -type f -name '*.py' | xargs wc -l | sort -n | tail
 ```
+
+## Show routing table
+
+```bash
+ip route show
+```
