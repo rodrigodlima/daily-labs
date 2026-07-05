@@ -103,3 +103,9 @@ dig +short example.com A
 ```bash
 echo | openssl s_client -connect example.com:443 2>/dev/null | openssl x509 -noout -dates
 ```
+
+## Create a swap file
+
+```bash
+sudo fallocate -l 2G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile
+```
