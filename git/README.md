@@ -88,3 +88,9 @@ git log -S 'functionName' --oneline
 ```bash
 git branch --merged main | grep -v ' main$' | xargs -r git branch -d
 ```
+
+## Diff only names between branches
+
+```bash
+git diff --name-only main...feature
+```
