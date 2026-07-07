@@ -5,8 +5,8 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 
 | Topic | Notes |
 |---|---|
-| [Linux](linux/README.md) | 18 |
-| [Git](git/README.md) | 13 |
+| [Linux](linux/README.md) | 19 |
+| [Git](git/README.md) | 16 |
 | [Docker](docker/README.md) | 13 |
 | [Kubernetes](kubernetes/README.md) | 13 |
 | [Bash](bash/README.md) | 12 |
