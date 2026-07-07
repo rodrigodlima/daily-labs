@@ -82,3 +82,9 @@ git config --global user.signingkey ~/.ssh/id_ed25519.pub
 ```bash
 git log -S 'functionName' --oneline
 ```
+
+## Delete merged local branches
+
+```bash
+git branch --merged main | grep -v ' main$' | xargs -r git branch -d
+```
