@@ -94,3 +94,9 @@ git branch --merged main | grep -v ' main$' | xargs -r git branch -d
 ```bash
 git diff --name-only main...feature
 ```
+
+## Shallow clone
+
+```bash
+git clone --depth 1 <url>
+```
