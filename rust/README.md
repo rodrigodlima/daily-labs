@@ -13,3 +13,9 @@ cargo check
 ```rust
 cargo clippy -- -D warnings
 ```
+
+## Option combinators
+
+```rust
+let len = name.as_deref().map(str::len).unwrap_or(0);
+```
