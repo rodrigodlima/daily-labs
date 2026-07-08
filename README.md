@@ -15,7 +15,7 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Ansible](ansible/README.md) | 3 |
 | [Python](python/README.md) | 3 |
 | [Java](java/README.md) | 3 |
-| [Rust](rust/README.md) | 2 |
+| [Rust](rust/README.md) | 3 |
 | [SRE](sre/README.md) | 2 |
 
 Daily log: [log/](log/)
