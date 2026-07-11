@@ -106,3 +106,10 @@ git clone --depth 1 <url>
 ```bash
 git restore --source main -- path/to/file
 ```
+
+## Aliases
+
+```bash
+git config --global alias.st 'status -sb'
+git config --global alias.lg 'log --oneline --graph'
+```
