@@ -113,3 +113,10 @@ git restore --source main -- path/to/file
 git config --global alias.st 'status -sb'
 git config --global alias.lg 'log --oneline --graph'
 ```
+
+## Sparse checkout
+
+```bash
+git sparse-checkout init --cone
+git sparse-checkout set services/api
+```
