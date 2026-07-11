@@ -100,3 +100,9 @@ git diff --name-only main...feature
 ```bash
 git clone --depth 1 <url>
 ```
+
+## Restore a file from another branch
+
+```bash
+git restore --source main -- path/to/file
+```
