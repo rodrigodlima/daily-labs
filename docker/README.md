@@ -89,3 +89,9 @@ HEALTHCHECK --interval=30s --timeout=3s CMD curl -fs http://localhost:8080/healt
 ```bash
 Keep .git, node_modules, .venv and build outputs out of the build context to speed up builds.
 ```
+
+## Exec as root into a container
+
+```bash
+docker exec -u 0 -it <id> sh
+```
