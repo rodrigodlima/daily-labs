@@ -95,3 +95,10 @@ Keep .git, node_modules, .venv and build outputs out of the build context to spe
 ```bash
 docker exec -u 0 -it <id> sh
 ```
+
+## Save and load images offline
+
+```bash
+docker save app:1.0 | gzip > app.tar.gz
+gunzip -c app.tar.gz | docker load
+```
