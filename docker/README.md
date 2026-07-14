@@ -102,3 +102,9 @@ docker exec -u 0 -it <id> sh
 docker save app:1.0 | gzip > app.tar.gz
 gunzip -c app.tar.gz | docker load
 ```
+
+## Compose override for local dev
+
+```bash
+docker compose -f compose.yml -f compose.dev.yml up -d
+```
