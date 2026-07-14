@@ -114,3 +114,9 @@ docker compose -f compose.yml -f compose.dev.yml up -d
 ```bash
 trivy image app:1.0
 ```
+
+## Read-only root filesystem
+
+```bash
+docker run --read-only --tmpfs /tmp nginx
+```
