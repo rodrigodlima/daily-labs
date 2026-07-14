@@ -108,3 +108,9 @@ gunzip -c app.tar.gz | docker load
 ```bash
 docker compose -f compose.yml -f compose.dev.yml up -d
 ```
+
+## Scan image for vulnerabilities
+
+```bash
+trivy image app:1.0
+```
