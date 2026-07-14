@@ -79,3 +79,9 @@ kubectl config set-context --current --namespace=<ns>
 ```bash
 kind create cluster --name lab --image kindest/node:v1.31.0
 ```
+
+## Scale a deployment
+
+```bash
+kubectl scale deploy/<name> --replicas=3
+```
