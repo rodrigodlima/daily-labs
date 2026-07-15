@@ -19,3 +19,9 @@ ss -ltnp | grep :8080
 ```bash
 journalctl -u nginx -f --since '10 min ago'
 ```
+
+## Check disk inodes
+
+```bash
+df -i
+```
