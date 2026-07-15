@@ -9,3 +9,7 @@ Error budget = 1 - SLO. For 99.9% over 30d: ~43m12s of allowed downtime.
 ## Four golden signals
 
 Latency, traffic, errors, saturation.
+
+## Toil
+
+Manual, repetitive, automatable work that scales linearly with service growth. Keep it under 50%.
