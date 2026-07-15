@@ -19,3 +19,9 @@ kubectl debug -it <pod> --image=busybox --target=<container>
 ```bash
 kubectl rollout restart deploy/<name>
 ```
+
+## Get pod resource usage
+
+```bash
+kubectl top pods -A --sort-by=memory
+```
