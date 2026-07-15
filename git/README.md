@@ -19,3 +19,9 @@ git show --stat <sha>
 ```bash
 git add -p
 ```
+
+## Find who changed a line
+
+```bash
+git blame -L 10,20 path/to/file
+```
