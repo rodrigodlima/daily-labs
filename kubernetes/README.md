@@ -91,3 +91,9 @@ kubectl scale deploy/<name> --replicas=3
 ```bash
 kubectl logs <pod> --previous
 ```
+
+## Labels as columns
+
+```bash
+kubectl get pods -L app,version
+```
