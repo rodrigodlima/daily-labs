@@ -85,3 +85,9 @@ kind create cluster --name lab --image kindest/node:v1.31.0
 ```bash
 kubectl scale deploy/<name> --replicas=3
 ```
+
+## Pod logs from previous crash
+
+```bash
+kubectl logs <pod> --previous
+```
