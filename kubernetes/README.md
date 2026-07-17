@@ -103,3 +103,9 @@ kubectl get pods -L app,version
 ```bash
 kubectl wait --for=condition=available deploy/<name> --timeout=120s
 ```
+
+## Check RBAC permissions
+
+```bash
+kubectl auth can-i create pods --as=system:serviceaccount:<ns>:<sa>
+```
