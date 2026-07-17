@@ -97,3 +97,9 @@ kubectl logs <pod> --previous
 ```bash
 kubectl get pods -L app,version
 ```
+
+## Wait for a condition
+
+```bash
+kubectl wait --for=condition=available deploy/<name> --timeout=120s
+```
