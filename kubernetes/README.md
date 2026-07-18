@@ -115,3 +115,14 @@ kubectl auth can-i create pods --as=system:serviceaccount:<ns>:<sa>
 ```bash
 helm template my-release ./chart -f values.yaml
 ```
+
+## Resource requests and limits
+
+```bash
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    memory: 256Mi
+```
