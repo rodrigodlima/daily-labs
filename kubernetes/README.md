@@ -109,3 +109,9 @@ kubectl wait --for=condition=available deploy/<name> --timeout=120s
 ```bash
 kubectl auth can-i create pods --as=system:serviceaccount:<ns>:<sa>
 ```
+
+## Helm template locally
+
+```bash
+helm template my-release ./chart -f values.yaml
+```
