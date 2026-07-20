@@ -102,3 +102,14 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 declare -A port=([http]=80 [https]=443)
 echo "${port[https]}"
 ```
+
+## Getopts skeleton
+
+```bash
+while getopts 'vf:' opt; do
+  case $opt in
+    v) verbose=1 ;;
+    f) file=$OPTARG ;;
+  esac
+done
+```
