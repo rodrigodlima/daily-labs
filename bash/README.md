@@ -95,3 +95,10 @@ echo "${name^^}" "${name,,}"
 ```bash
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ```
+
+## Associative arrays
+
+```bash
+declare -A port=([http]=80 [https]=443)
+echo "${port[https]}"
+```
