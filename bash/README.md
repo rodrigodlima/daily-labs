@@ -89,3 +89,9 @@ for i in 1 2 3 4 5; do cmd && break; sleep $((2**i)); done
 name=rodrigo
 echo "${name^^}" "${name,,}"
 ```
+
+## Get script directory
+
+```bash
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+```
