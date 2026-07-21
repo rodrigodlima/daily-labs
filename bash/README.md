@@ -20,3 +20,10 @@ name="${1:-world}"
 ```bash
 while IFS= read -r line; do echo "$line"; done < file.txt
 ```
+
+## Trap cleanup
+
+```bash
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+```
