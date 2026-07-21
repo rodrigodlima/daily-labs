@@ -22,3 +22,9 @@ import {
   id = "my-logs-bucket"
 }
 ```
+
+## Target a single resource (use sparingly)
+
+```bash
+terraform plan -target=module.vpc
+```
