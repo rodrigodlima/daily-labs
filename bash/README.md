@@ -113,3 +113,9 @@ while getopts 'vf:' opt; do
   esac
 done
 ```
+
+## Process substitution
+
+```bash
+diff <(sort a.txt) <(sort b.txt)
+```
