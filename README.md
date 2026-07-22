@@ -9,9 +9,9 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Git](git/README.md) | 4 |
 | [Docker](docker/README.md) | 4 |
 | [Kubernetes](kubernetes/README.md) | 4 |
-| [Bash](bash/README.md) | 3 |
-| [AWS](aws/README.md) | 3 |
-| [Terraform](terraform/README.md) | 3 |
+| [Bash](bash/README.md) | 4 |
+| [AWS](aws/README.md) | 4 |
+| [Terraform](terraform/README.md) | 4 |
 | [Ansible](ansible/README.md) | 3 |
 | [Python](python/README.md) | 3 |
 | [Java](java/README.md) | 3 |
