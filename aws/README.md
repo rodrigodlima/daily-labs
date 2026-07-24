@@ -73,3 +73,9 @@ aws s3 sync ./dist s3://<bucket> --delete
 ```bash
 aws sts decode-authorization-message --encoded-message <msg> --query DecodedMessage --output text | jq .
 ```
+
+## Invoke a Lambda
+
+```bash
+aws lambda invoke --function-name <fn> --payload '{}' --cli-binary-format raw-in-base64-out out.json
+```
