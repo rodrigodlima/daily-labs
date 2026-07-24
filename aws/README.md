@@ -79,3 +79,9 @@ aws sts decode-authorization-message --encoded-message <msg> --query DecodedMess
 ```bash
 aws lambda invoke --function-name <fn> --payload '{}' --cli-binary-format raw-in-base64-out out.json
 ```
+
+## List IAM roles
+
+```bash
+aws iam list-roles --query 'Roles[].RoleName' --output text
+```
