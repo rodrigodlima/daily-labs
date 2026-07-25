@@ -97,3 +97,9 @@ aws ecr get-login-password | docker login --username AWS --password-stdin <acct>
 ```bash
 aws eks update-kubeconfig --name <cluster> --region <region>
 ```
+
+## Get a secret value
+
+```bash
+aws secretsmanager get-secret-value --secret-id <id> --query SecretString --output text
+```
