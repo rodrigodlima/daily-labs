@@ -91,3 +91,9 @@ aws iam list-roles --query 'Roles[].RoleName' --output text
 ```bash
 aws ecr get-login-password | docker login --username AWS --password-stdin <acct>.dkr.ecr.<region>.amazonaws.com
 ```
+
+## Update kubeconfig for EKS
+
+```bash
+aws eks update-kubeconfig --name <cluster> --region <region>
+```
