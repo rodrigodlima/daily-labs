@@ -85,3 +85,9 @@ aws lambda invoke --function-name <fn> --payload '{}' --cli-binary-format raw-in
 ```bash
 aws iam list-roles --query 'Roles[].RoleName' --output text
 ```
+
+## ECR login
+
+```bash
+aws ecr get-login-password | docker login --username AWS --password-stdin <acct>.dkr.ecr.<region>.amazonaws.com
+```
