@@ -103,3 +103,9 @@ aws eks update-kubeconfig --name <cluster> --region <region>
 ```bash
 aws secretsmanager get-secret-value --secret-id <id> --query SecretString --output text
 ```
+
+## Cost by service last month
+
+```bash
+aws ce get-cost-and-usage --time-period Start=2026-06-01,End=2026-07-01 --granularity MONTHLY --metrics UnblendedCost --group-by Type=DIMENSION,Key=SERVICE
+```
