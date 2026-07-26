@@ -84,3 +84,15 @@ resource "aws_s3_bucket" "b" {
   bucket   = each.value
 }
 ```
+
+## Remote state in S3
+
+```bash
+terraform {
+  backend "s3" {
+    bucket = "tf-state"
+    key    = "prod/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
+```
