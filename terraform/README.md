@@ -96,3 +96,11 @@ terraform {
   }
 }
 ```
+
+## Locals
+
+```hcl
+locals {
+  common_tags = { Owner = "rodrigo", Env = var.env }
+}
+```
