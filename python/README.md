@@ -19,3 +19,14 @@ cat file.json | python3 -m json.tool
 ```python
 python3 -m venv .venv && . .venv/bin/activate
 ```
+
+## Dataclasses
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class User:
+    name: str
+    age: int = 0
+```
