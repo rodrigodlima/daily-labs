@@ -19,3 +19,9 @@ ansible-playbook site.yml --check --diff
 ```bash
 ansible webservers --list-hosts
 ```
+
+## Encrypt a single string
+
+```bash
+ansible-vault encrypt_string 's3cr3t' --name 'db_password'
+```
