@@ -104,3 +104,9 @@ locals {
   common_tags = { Owner = "rodrigo", Env = var.env }
 }
 ```
+
+## Console to test expressions
+
+```bash
+terraform console
+```
