@@ -123,3 +123,9 @@ dynamic "ingress" {
   }
 }
 ```
+
+## Plan to file and apply it
+
+```bash
+terraform plan -out=tfplan && terraform apply tfplan
+```
