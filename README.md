@@ -11,7 +11,7 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Kubernetes](kubernetes/README.md) | 20 |
 | [Bash](bash/README.md) | 17 |
 | [AWS](aws/README.md) | 18 |
-| [Terraform](terraform/README.md) | 14 |
+| [Terraform](terraform/README.md) | 17 |
 | [Ansible](ansible/README.md) | 11 |
 | [Python](python/README.md) | 12 |
 | [Java](java/README.md) | 11 |
