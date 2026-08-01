@@ -74,3 +74,12 @@ ansible-lint playbooks/
 ```bash
 ansible-galaxy role init roles/webserver
 ```
+
+## Template module
+
+```yaml
+- ansible.builtin.template:
+    src: nginx.conf.j2
+    dest: /etc/nginx/nginx.conf
+  notify: restart nginx
+```
