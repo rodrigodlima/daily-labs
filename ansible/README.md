@@ -91,3 +91,9 @@ ansible-galaxy role init roles/webserver
     name: nginx
   when: ansible_os_family == 'Debian'
 ```
+
+## Install collections
+
+```bash
+ansible-galaxy collection install -r requirements.yml
+```
