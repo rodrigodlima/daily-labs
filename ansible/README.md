@@ -97,3 +97,10 @@ ansible-galaxy role init roles/webserver
 ```bash
 ansible-galaxy collection install -r requirements.yml
 ```
+
+## Debug a variable
+
+```yaml
+- ansible.builtin.debug:
+    var: hostvars[inventory_hostname]
+```
