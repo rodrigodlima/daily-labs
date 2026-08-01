@@ -83,3 +83,11 @@ ansible-galaxy role init roles/webserver
     dest: /etc/nginx/nginx.conf
   notify: restart nginx
 ```
+
+## Conditionals
+
+```yaml
+- ansible.builtin.apt:
+    name: nginx
+  when: ansible_os_family == 'Debian'
+```
