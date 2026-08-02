@@ -104,3 +104,9 @@ ansible-galaxy collection install -r requirements.yml
 - ansible.builtin.debug:
     var: hostvars[inventory_hostname]
 ```
+
+## Run with more verbosity
+
+```bash
+ansible-playbook site.yml -vvv
+```
