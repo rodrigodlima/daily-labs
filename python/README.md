@@ -97,3 +97,10 @@ r.raise_for_status()
 ```python
 uv run ruff format .
 ```
+
+## Enumerate and zip
+
+```python
+for i, (a, b) in enumerate(zip(xs, ys)):
+    print(i, a, b)
+```
