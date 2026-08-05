@@ -111,3 +111,10 @@ for i, (a, b) in enumerate(zip(xs, ys)):
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 ```
+
+## Subprocess with output
+
+```python
+import subprocess
+out = subprocess.run(['ls', '-l'], capture_output=True, text=True, check=True).stdout
+```
