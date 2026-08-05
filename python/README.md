@@ -104,3 +104,10 @@ uv run ruff format .
 for i, (a, b) in enumerate(zip(xs, ys)):
     print(i, a, b)
 ```
+
+## Logging setup
+
+```python
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+```
