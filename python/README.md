@@ -118,3 +118,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(mess
 import subprocess
 out = subprocess.run(['ls', '-l'], capture_output=True, text=True, check=True).stdout
 ```
+
+## Type hints with generics
+
+```python
+def first(items: list[str]) -> str | None:
+    return items[0] if items else None
+```
