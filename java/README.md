@@ -81,3 +81,10 @@ var client = HttpClient.newHttpClient();
 var req = HttpRequest.newBuilder(URI.create(url)).build();
 var body = client.send(req, BodyHandlers.ofString()).body();
 ```
+
+## Immutable collections
+
+```java
+var list = List.of(1, 2, 3);
+var map = Map.of("a", 1);
+```
