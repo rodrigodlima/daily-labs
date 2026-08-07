@@ -135,3 +135,10 @@ import pytest
 def client():
     return make_client()
 ```
+
+## Counter
+
+```python
+from collections import Counter
+Counter('mississippi').most_common(2)
+```
