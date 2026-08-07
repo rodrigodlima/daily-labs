@@ -125,3 +125,13 @@ out = subprocess.run(['ls', '-l'], capture_output=True, text=True, check=True).s
 def first(items: list[str]) -> str | None:
     return items[0] if items else None
 ```
+
+## Pytest fixture
+
+```python
+import pytest
+
+@pytest.fixture
+def client():
+    return make_client()
+```
