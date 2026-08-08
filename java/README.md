@@ -88,3 +88,11 @@ var body = client.send(req, BodyHandlers.ofString()).body();
 var list = List.of(1, 2, 3);
 var map = Map.of("a", 1);
 ```
+
+## Try-with-resources
+
+```java
+try (var reader = Files.newBufferedReader(path)) {
+    return reader.readLine();
+}
+```
