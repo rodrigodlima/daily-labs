@@ -96,3 +96,9 @@ try (var reader = Files.newBufferedReader(path)) {
     return reader.readLine();
 }
 ```
+
+## JFR recording
+
+```java
+java -XX:StartFlightRecording=duration=60s,filename=rec.jfr -jar app.jar
+```
