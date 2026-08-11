@@ -108,3 +108,11 @@ java -XX:StartFlightRecording=duration=60s,filename=rec.jfr -jar app.jar
 ```java
 mvn dependency:tree -Dincludes=com.fasterxml.jackson.core
 ```
+
+## CompletableFuture chain
+
+```java
+CompletableFuture.supplyAsync(this::load)
+    .thenApply(this::parse)
+    .thenAccept(System.out::println);
+```
