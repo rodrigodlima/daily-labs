@@ -102,3 +102,9 @@ try (var reader = Files.newBufferedReader(path)) {
 ```java
 java -XX:StartFlightRecording=duration=60s,filename=rec.jfr -jar app.jar
 ```
+
+## Maven dependency tree
+
+```java
+mvn dependency:tree -Dincludes=com.fasterxml.jackson.core
+```
