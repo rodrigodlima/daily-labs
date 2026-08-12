@@ -78,3 +78,9 @@ cargo build --release
 ```rust
 cargo test -- --nocapture
 ```
+
+## Ownership: borrow instead of move
+
+```rust
+fn len(s: &String) -> usize { s.len() }
+```
