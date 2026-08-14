@@ -84,3 +84,11 @@ cargo test -- --nocapture
 ```rust
 fn len(s: &String) -> usize { s.len() }
 ```
+
+## Vec and HashMap
+
+```rust
+use std::collections::HashMap;
+let mut m: HashMap<&str, i32> = HashMap::new();
+*m.entry("a").or_insert(0) += 1;
+```
