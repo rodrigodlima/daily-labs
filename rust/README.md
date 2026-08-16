@@ -92,3 +92,13 @@ use std::collections::HashMap;
 let mut m: HashMap<&str, i32> = HashMap::new();
 *m.entry("a").or_insert(0) += 1;
 ```
+
+## Read CLI args with clap
+
+```rust
+#[derive(clap::Parser)]
+struct Args {
+    #[arg(short, long)]
+    name: String,
+}
+```
