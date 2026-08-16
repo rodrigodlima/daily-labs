@@ -108,3 +108,11 @@ struct Args {
 ```rust
 cargo fmt && cargo doc --open
 ```
+
+## Lifetimes basics
+
+```rust
+fn longest<'a>(a: &'a str, b: &'a str) -> &'a str {
+    if a.len() > b.len() { a } else { b }
+}
+```
