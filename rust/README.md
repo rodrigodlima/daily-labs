@@ -102,3 +102,9 @@ struct Args {
     name: String,
 }
 ```
+
+## Format and doc
+
+```rust
+cargo fmt && cargo doc --open
+```
