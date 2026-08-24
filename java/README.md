@@ -19,3 +19,11 @@ java -XX:+PrintFlagsFinal -version | grep -i heap
 ```java
 record Point(int x, int y) {}
 ```
+
+## Virtual threads
+
+```java
+try (var ex = Executors.newVirtualThreadPerTaskExecutor()) {
+    ex.submit(() -> doWork());
+}
+```
