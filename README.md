@@ -14,7 +14,7 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Terraform](terraform/README.md) | 4 |
 | [Ansible](ansible/README.md) | 4 |
 | [Python](python/README.md) | 4 |
-| [Java](java/README.md) | 3 |
+| [Java](java/README.md) | 4 |
 | [Rust](rust/README.md) | 3 |
 | [SRE](sre/README.md) | 3 |
 
