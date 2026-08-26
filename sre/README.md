@@ -45,3 +45,7 @@ Prefer serving stale or partial results over failing completely when a dependenc
 ## On-call hygiene
 
 Fewer than two pages per shift; every page must be actionable, otherwise fix or delete the alert.
+
+## Load shedding
+
+Reject excess requests early (429/503) to protect the service instead of degrading for everyone.
