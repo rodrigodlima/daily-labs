@@ -19,3 +19,11 @@ cargo clippy -- -D warnings
 ```rust
 let len = name.as_deref().map(str::len).unwrap_or(0);
 ```
+
+## Result with ? operator
+
+```rust
+fn read() -> std::io::Result<String> {
+    std::fs::read_to_string("cfg.toml")
+}
+```
