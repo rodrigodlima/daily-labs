@@ -5,8 +5,8 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 
 | Topic | Notes |
 |---|---|
-| [Linux](linux/README.md) | 4 |
-| [Git](git/README.md) | 4 |
+| [Linux](linux/README.md) | 5 |
+| [Git](git/README.md) | 5 |
 | [Docker](docker/README.md) | 4 |
 | [Kubernetes](kubernetes/README.md) | 4 |
 | [Bash](bash/README.md) | 4 |
@@ -15,7 +15,7 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Ansible](ansible/README.md) | 4 |
 | [Python](python/README.md) | 4 |
 | [Java](java/README.md) | 4 |
-| [Rust](rust/README.md) | 3 |
-| [SRE](sre/README.md) | 3 |
+| [Rust](rust/README.md) | 4 |
+| [SRE](sre/README.md) | 4 |
 
 Daily log: [log/](log/)
