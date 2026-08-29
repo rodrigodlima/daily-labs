@@ -13,3 +13,7 @@ Latency, traffic, errors, saturation.
 ## Toil
 
 Manual, repetitive, automatable work that scales linearly with service growth. Keep it under 50%.
+
+## Blameless postmortem
+
+Focus on what happened and why the system allowed it, not who. Always end with owned action items.
