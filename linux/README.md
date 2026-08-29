@@ -25,3 +25,9 @@ journalctl -u nginx -f --since '10 min ago'
 ```bash
 df -i
 ```
+
+## Show open files by process
+
+```bash
+lsof -p <pid>
+```
