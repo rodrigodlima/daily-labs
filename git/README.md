@@ -25,3 +25,9 @@ git add -p
 ```bash
 git blame -L 10,20 path/to/file
 ```
+
+## Clean untracked files (dry run first)
+
+```bash
+git clean -nd && git clean -fd
+```
