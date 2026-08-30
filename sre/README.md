@@ -53,3 +53,7 @@ Reject excess requests early (429/503) to protect the service instead of degradi
 ## Retries with jitter
 
 Use exponential backoff with jitter and a retry budget to avoid thundering herds.
+
+## Change management
+
+Most outages come from changes: progressive rollouts, feature flags and fast rollback reduce blast radius.
