@@ -49,3 +49,7 @@ Fewer than two pages per shift; every page must be actionable, otherwise fix or 
 ## Load shedding
 
 Reject excess requests early (429/503) to protect the service instead of degrading for everyone.
+
+## Retries with jitter
+
+Use exponential backoff with jitter and a retry budget to avoid thundering herds.
