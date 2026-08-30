@@ -16,6 +16,6 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Python](python/README.md) | 18 |
 | [Java](java/README.md) | 16 |
 | [Rust](rust/README.md) | 16 |
-| [SRE](sre/README.md) | 12 |
+| [SRE](sre/README.md) | 14 |
 
 Daily log: [log/](log/)
