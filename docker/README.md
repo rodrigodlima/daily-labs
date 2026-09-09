@@ -32,3 +32,11 @@ ENTRYPOINT ["/app"]
 ```bash
 docker run --memory=512m --cpus=1.5 nginx
 ```
+
+## Compose: wait for healthy dependency
+
+```yaml
+depends_on:
+  db:
+    condition: service_healthy
+```
