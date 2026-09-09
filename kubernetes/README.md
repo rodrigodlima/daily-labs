@@ -25,3 +25,9 @@ kubectl rollout restart deploy/<name>
 ```bash
 kubectl top pods -A --sort-by=memory
 ```
+
+## Port-forward a service
+
+```bash
+kubectl port-forward svc/<name> 8080:80
+```
