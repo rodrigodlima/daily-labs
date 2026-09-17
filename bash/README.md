@@ -27,3 +27,9 @@ while IFS= read -r line; do echo "$line"; done < file.txt
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
 ```
+
+## Parallel jobs with xargs
+
+```bash
+ls *.log | xargs -P4 -I{} gzip {}
+```
