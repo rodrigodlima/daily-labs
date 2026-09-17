@@ -25,3 +25,9 @@ ansible webservers --list-hosts
 ```bash
 ansible-vault encrypt_string 's3cr3t' --name 'db_password'
 ```
+
+## Limit run to one host
+
+```bash
+ansible-playbook site.yml --limit web01
+```
