@@ -27,3 +27,10 @@ fn read() -> std::io::Result<String> {
     std::fs::read_to_string("cfg.toml")
 }
 ```
+
+## Derive common traits
+
+```rust
+#[derive(Debug, Clone, PartialEq)]
+struct Config { port: u16 }
+```
