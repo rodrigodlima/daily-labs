@@ -25,3 +25,9 @@ aws ssm get-parameters --names /aws/service/ami-amazon-linux-latest/al2023-ami-k
 ```bash
 aws logs tail /aws/lambda/<fn> --follow
 ```
+
+## Start SSM session instead of SSH
+
+```bash
+aws ssm start-session --target i-0123456789abcdef0
+```
