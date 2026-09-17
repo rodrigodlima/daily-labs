@@ -27,3 +27,13 @@ try (var ex = Executors.newVirtualThreadPerTaskExecutor()) {
     ex.submit(() -> doWork());
 }
 ```
+
+## Pattern matching for switch
+
+```java
+String d = switch (o) {
+    case Integer i -> "int " + i;
+    case String s -> "str " + s;
+    default -> "other";
+};
+```
