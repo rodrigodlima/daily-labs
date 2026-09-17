@@ -30,3 +30,11 @@ class User:
     name: str
     age: int = 0
 ```
+
+## Pathlib basics
+
+```python
+from pathlib import Path
+for p in Path('.').rglob('*.py'):
+    print(p)
+```
