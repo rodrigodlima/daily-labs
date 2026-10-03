@@ -17,3 +17,7 @@ Manual, repetitive, automatable work that scales linearly with service growth. K
 ## Blameless postmortem
 
 Focus on what happened and why the system allowed it, not who. Always end with owned action items.
+
+## SLI vs SLO vs SLA
+
+SLI = measurement, SLO = internal target, SLA = contract with consequences.
