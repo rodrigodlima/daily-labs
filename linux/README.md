@@ -31,3 +31,9 @@ df -i
 ```bash
 lsof -p <pid>
 ```
+
+## Trace syscalls of a command
+
+```bash
+strace -f -e trace=network curl -s example.com
+```
