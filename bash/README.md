@@ -33,3 +33,11 @@ trap 'rm -rf "$tmp"' EXIT
 ```bash
 ls *.log | xargs -P4 -I{} gzip {}
 ```
+
+## Here-doc without expansion
+
+```bash
+cat <<'EOF'
+$HOME is not expanded here
+EOF
+```
