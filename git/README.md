@@ -31,3 +31,9 @@ git blame -L 10,20 path/to/file
 ```bash
 git clean -nd && git clean -fd
 ```
+
+## Rewrite last commit message
+
+```bash
+git commit --amend
+```
