@@ -37,3 +37,9 @@ moved {
   to   = module.web.aws_instance.this
 }
 ```
+
+## Validate and lint
+
+```bash
+terraform validate && tflint
+```
