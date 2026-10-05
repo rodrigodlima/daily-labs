@@ -5,17 +5,17 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 
 | Topic | Notes |
 |---|---|
-| [Linux](linux/README.md) | 5 |
-| [Git](git/README.md) | 5 |
-| [Docker](docker/README.md) | 5 |
-| [Kubernetes](kubernetes/README.md) | 5 |
-| [Bash](bash/README.md) | 5 |
-| [AWS](aws/README.md) | 5 |
-| [Terraform](terraform/README.md) | 5 |
+| [Linux](linux/README.md) | 6 |
+| [Git](git/README.md) | 6 |
+| [Docker](docker/README.md) | 6 |
+| [Kubernetes](kubernetes/README.md) | 6 |
+| [Bash](bash/README.md) | 6 |
+| [AWS](aws/README.md) | 6 |
+| [Terraform](terraform/README.md) | 6 |
 | [Ansible](ansible/README.md) | 5 |
 | [Python](python/README.md) | 5 |
 | [Java](java/README.md) | 5 |
 | [Rust](rust/README.md) | 5 |
-| [SRE](sre/README.md) | 4 |
+| [SRE](sre/README.md) | 5 |
 
 Daily log: [log/](log/)
