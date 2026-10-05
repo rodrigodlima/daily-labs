@@ -40,3 +40,9 @@ depends_on:
   db:
     condition: service_healthy
 ```
+
+## Copy files out of a container
+
+```bash
+docker cp <id>:/var/log/app.log .
+```
