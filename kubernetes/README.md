@@ -31,3 +31,9 @@ kubectl top pods -A --sort-by=memory
 ```bash
 kubectl port-forward svc/<name> 8080:80
 ```
+
+## Explain a field
+
+```bash
+kubectl explain deployment.spec.strategy
+```
