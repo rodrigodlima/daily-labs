@@ -31,3 +31,9 @@ aws logs tail /aws/lambda/<fn> --follow
 ```bash
 aws ssm start-session --target i-0123456789abcdef0
 ```
+
+## Query with JMESPath
+
+```bash
+aws ec2 describe-instances --query 'Reservations[].Instances[].[InstanceId,State.Name]' --output table
+```
