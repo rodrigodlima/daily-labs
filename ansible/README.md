@@ -31,3 +31,9 @@ ansible-vault encrypt_string 's3cr3t' --name 'db_password'
 ```bash
 ansible-playbook site.yml --limit web01
 ```
+
+## Gather facts for one host
+
+```bash
+ansible web01 -m setup -a 'filter=ansible_distribution*'
+```
