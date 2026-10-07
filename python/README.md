@@ -38,3 +38,17 @@ from pathlib import Path
 for p in Path('.').rglob('*.py'):
     print(p)
 ```
+
+## Context manager with contextlib
+
+```python
+from contextlib import contextmanager
+
+@contextmanager
+def opened(p):
+    f = open(p)
+    try:
+        yield f
+    finally:
+        f.close()
+```
