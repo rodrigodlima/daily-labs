@@ -37,3 +37,11 @@ String d = switch (o) {
     default -> "other";
 };
 ```
+
+## Text blocks
+
+```java
+String json = """
+    {"name": "rodrigo"}
+    """;
+```
