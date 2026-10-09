@@ -37,3 +37,9 @@ lsof -p <pid>
 ```bash
 strace -f -e trace=network curl -s example.com
 ```
+
+## Test TCP connectivity without telnet
+
+```bash
+timeout 3 bash -c '</dev/tcp/10.0.0.5/443' && echo open
+```
