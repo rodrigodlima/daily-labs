@@ -37,3 +37,9 @@ git clean -nd && git clean -fd
 ```bash
 git commit --amend
 ```
+
+## Stash including untracked
+
+```bash
+git stash push -u -m 'wip'
+```
