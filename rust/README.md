@@ -34,3 +34,9 @@ fn read() -> std::io::Result<String> {
 #[derive(Debug, Clone, PartialEq)]
 struct Config { port: u16 }
 ```
+
+## Iterators instead of loops
+
+```rust
+let total: i32 = v.iter().filter(|x| **x > 0).sum();
+```
