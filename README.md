@@ -12,9 +12,9 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [Bash](bash/README.md) | 6 |
 | [AWS](aws/README.md) | 6 |
 | [Terraform](terraform/README.md) | 6 |
-| [Ansible](ansible/README.md) | 5 |
-| [Python](python/README.md) | 5 |
-| [Java](java/README.md) | 5 |
+| [Ansible](ansible/README.md) | 6 |
+| [Python](python/README.md) | 6 |
+| [Java](java/README.md) | 6 |
 | [Rust](rust/README.md) | 5 |
 | [SRE](sre/README.md) | 5 |
 
