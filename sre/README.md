@@ -21,3 +21,7 @@ Focus on what happened and why the system allowed it, not who. Always end with o
 ## SLI vs SLO vs SLA
 
 SLI = measurement, SLO = internal target, SLA = contract with consequences.
+
+## Alert on symptoms, not causes
+
+Page on user-facing impact (error rate, latency); keep cause-based alerts as tickets or dashboards.
