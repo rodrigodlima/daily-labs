@@ -46,3 +46,9 @@ depends_on:
 ```bash
 docker cp <id>:/var/log/app.log .
 ```
+
+## Build for multiple platforms
+
+```bash
+docker buildx build --platform linux/amd64,linux/arm64 -t user/app:1.0 --push .
+```
