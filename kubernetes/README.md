@@ -37,3 +37,9 @@ kubectl port-forward svc/<name> 8080:80
 ```bash
 kubectl explain deployment.spec.strategy
 ```
+
+## Dry-run and generate YAML
+
+```bash
+kubectl create deploy web --image=nginx --dry-run=client -o yaml > web.yaml
+```
