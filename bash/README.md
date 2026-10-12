@@ -41,3 +41,11 @@ cat <<'EOF'
 $HOME is not expanded here
 EOF
 ```
+
+## Arrays
+
+```bash
+arr=(a b c)
+for i in "${arr[@]}"; do echo "$i"; done
+echo "len=${#arr[@]}"
+```
