@@ -37,3 +37,9 @@ aws ssm start-session --target i-0123456789abcdef0
 ```bash
 aws ec2 describe-instances --query 'Reservations[].Instances[].[InstanceId,State.Name]' --output table
 ```
+
+## Presigned S3 URL
+
+```bash
+aws s3 presign s3://<bucket>/file.zip --expires-in 3600
+```
