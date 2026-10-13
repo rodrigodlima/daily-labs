@@ -43,3 +43,9 @@ moved {
 ```bash
 terraform validate && tflint
 ```
+
+## Workspaces
+
+```bash
+terraform workspace new staging && terraform workspace select staging
+```
