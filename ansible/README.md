@@ -37,3 +37,13 @@ ansible-playbook site.yml --limit web01
 ```bash
 ansible web01 -m setup -a 'filter=ansible_distribution*'
 ```
+
+## Handlers
+
+```yaml
+handlers:
+  - name: restart nginx
+    ansible.builtin.service:
+      name: nginx
+      state: restarted
+```
