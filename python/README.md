@@ -52,3 +52,12 @@ def opened(p):
     finally:
         f.close()
 ```
+
+## Argparse skeleton
+
+```python
+import argparse
+p = argparse.ArgumentParser()
+p.add_argument('--verbose', action='store_true')
+args = p.parse_args()
+```
