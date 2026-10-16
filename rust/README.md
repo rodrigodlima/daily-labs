@@ -40,3 +40,10 @@ struct Config { port: u16 }
 ```rust
 let total: i32 = v.iter().filter(|x| **x > 0).sum();
 ```
+
+## Cargo workspace
+
+```toml
+[workspace]
+members = ["core", "cli"]
+```
