@@ -25,3 +25,7 @@ SLI = measurement, SLO = internal target, SLA = contract with consequences.
 ## Alert on symptoms, not causes
 
 Page on user-facing impact (error rate, latency); keep cause-based alerts as tickets or dashboards.
+
+## Canary releases
+
+Ship to a small slice of traffic, compare SLIs with baseline, then promote or roll back automatically.
