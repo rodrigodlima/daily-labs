@@ -52,3 +52,9 @@ docker cp <id>:/var/log/app.log .
 ```bash
 docker buildx build --platform linux/amd64,linux/arm64 -t user/app:1.0 --push .
 ```
+
+## Show image layers
+
+```bash
+docker history --no-trunc <image>
+```
