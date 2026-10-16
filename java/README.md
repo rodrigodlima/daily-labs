@@ -45,3 +45,9 @@ String json = """
     {"name": "rodrigo"}
     """;
 ```
+
+## Sealed interfaces
+
+```java
+sealed interface Shape permits Circle, Square {}
+```
