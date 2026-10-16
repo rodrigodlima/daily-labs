@@ -43,3 +43,11 @@ git commit --amend
 ```bash
 git stash push -u -m 'wip'
 ```
+
+## Bisect a regression
+
+```bash
+git bisect start
+git bisect bad
+git bisect good v1.2.0
+```
