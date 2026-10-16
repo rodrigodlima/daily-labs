@@ -43,3 +43,9 @@ kubectl explain deployment.spec.strategy
 ```bash
 kubectl create deploy web --image=nginx --dry-run=client -o yaml > web.yaml
 ```
+
+## Node drain for maintenance
+
+```bash
+kubectl drain <node> --ignore-daemonsets --delete-emptydir-data
+```
