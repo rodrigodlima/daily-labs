@@ -49,3 +49,9 @@ arr=(a b c)
 for i in "${arr[@]}"; do echo "$i"; done
 echo "len=${#arr[@]}"
 ```
+
+## Check command exists
+
+```bash
+command -v jq >/dev/null || { echo 'jq required'; exit 1; }
+```
