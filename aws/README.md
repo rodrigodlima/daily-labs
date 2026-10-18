@@ -43,3 +43,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[InstanceId,State
 ```bash
 aws s3 presign s3://<bucket>/file.zip --expires-in 3600
 ```
+
+## Assume role
+
+```bash
+aws sts assume-role --role-arn arn:aws:iam::<acct>:role/<role> --role-session-name me
+```
