@@ -61,3 +61,12 @@ p = argparse.ArgumentParser()
 p.add_argument('--verbose', action='store_true')
 args = p.parse_args()
 ```
+
+## Timing code
+
+```python
+import time
+t0 = time.perf_counter()
+...
+print(f'{time.perf_counter()-t0:.3f}s')
+```
