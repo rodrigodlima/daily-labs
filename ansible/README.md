@@ -47,3 +47,12 @@ handlers:
       name: nginx
       state: restarted
 ```
+
+## Loop with dict
+
+```yaml
+- ansible.builtin.user:
+    name: "{{ item.name }}"
+    groups: "{{ item.groups }}"
+  loop: "{{ users }}"
+```
