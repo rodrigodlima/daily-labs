@@ -49,3 +49,11 @@ terraform validate && tflint
 ```bash
 terraform workspace new staging && terraform workspace select staging
 ```
+
+## Lifecycle prevent_destroy
+
+```hcl
+lifecycle {
+  prevent_destroy = true
+}
+```
