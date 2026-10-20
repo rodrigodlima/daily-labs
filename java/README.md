@@ -51,3 +51,10 @@ String json = """
 ```java
 sealed interface Shape permits Circle, Square {}
 ```
+
+## Streams grouping
+
+```java
+Map<String, Long> c = list.stream()
+    .collect(Collectors.groupingBy(User::city, Collectors.counting()));
+```
