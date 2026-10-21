@@ -51,3 +51,9 @@ git bisect start
 git bisect bad
 git bisect good v1.2.0
 ```
+
+## Worktrees for parallel branches
+
+```bash
+git worktree add ../hotfix hotfix/1.2.1
+```
