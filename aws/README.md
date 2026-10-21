@@ -49,3 +49,9 @@ aws s3 presign s3://<bucket>/file.zip --expires-in 3600
 ```bash
 aws sts assume-role --role-arn arn:aws:iam::<acct>:role/<role> --role-session-name me
 ```
+
+## Find untagged EC2 instances
+
+```bash
+aws ec2 describe-instances --query 'Reservations[].Instances[?!not_null(Tags[?Key==`Owner`])].InstanceId' --output text
+```
