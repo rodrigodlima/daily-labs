@@ -47,3 +47,13 @@ let total: i32 = v.iter().filter(|x| **x > 0).sum();
 [workspace]
 members = ["core", "cli"]
 ```
+
+## Simple error with thiserror
+
+```rust
+#[derive(thiserror::Error, Debug)]
+enum AppError {
+    #[error("not found: {0}")]
+    NotFound(String),
+}
+```
