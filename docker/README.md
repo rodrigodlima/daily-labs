@@ -58,3 +58,10 @@ docker buildx build --platform linux/amd64,linux/arm64 -t user/app:1.0 --push .
 ```bash
 docker history --no-trunc <image>
 ```
+
+## Run as non-root user
+
+```bash
+RUN useradd -r -u 10001 app
+USER 10001
+```
