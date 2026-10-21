@@ -55,3 +55,11 @@ echo "len=${#arr[@]}"
 ```bash
 command -v jq >/dev/null || { echo 'jq required'; exit 1; }
 ```
+
+## Measure script sections
+
+```bash
+SECONDS=0
+# ... work ...
+echo "took ${SECONDS}s"
+```
