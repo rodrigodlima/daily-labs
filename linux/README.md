@@ -49,3 +49,9 @@ timeout 3 bash -c '</dev/tcp/10.0.0.5/443' && echo open
 ```bash
 sudo ss -tulpn
 ```
+
+## Watch a command output
+
+```bash
+watch -n 2 -d 'free -h'
+```
