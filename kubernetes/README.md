@@ -49,3 +49,9 @@ kubectl create deploy web --image=nginx --dry-run=client -o yaml > web.yaml
 ```bash
 kubectl drain <node> --ignore-daemonsets --delete-emptydir-data
 ```
+
+## Rollback a deployment
+
+```bash
+kubectl rollout undo deploy/<name> --to-revision=2
+```
