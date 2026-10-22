@@ -57,3 +57,9 @@ lifecycle {
   prevent_destroy = true
 }
 ```
+
+## Output sensitive value
+
+```bash
+terraform output -raw db_password
+```
