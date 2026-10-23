@@ -55,3 +55,9 @@ sudo ss -tulpn
 ```bash
 watch -n 2 -d 'free -h'
 ```
+
+## Kernel ring buffer with human timestamps
+
+```bash
+dmesg -T | tail -50
+```
