@@ -61,3 +61,9 @@ watch -n 2 -d 'free -h'
 ```bash
 dmesg -T | tail -50
 ```
+
+## Find files modified in the last day
+
+```bash
+find /var/log -type f -mtime -1 -ls
+```
