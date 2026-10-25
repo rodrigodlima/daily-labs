@@ -67,3 +67,9 @@ dmesg -T | tail -50
 ```bash
 find /var/log -type f -mtime -1 -ls
 ```
+
+## CPU and IO per process
+
+```bash
+pidstat -u -d 1 5
+```
