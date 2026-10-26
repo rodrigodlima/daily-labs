@@ -73,3 +73,9 @@ find /var/log -type f -mtime -1 -ls
 ```bash
 pidstat -u -d 1 5
 ```
+
+## Persist sysctl change
+
+```bash
+echo 'vm.max_map_count=262144' | sudo tee /etc/sysctl.d/99-es.conf && sudo sysctl --system
+```
