@@ -57,3 +57,9 @@ git bisect good v1.2.0
 ```bash
 git worktree add ../hotfix hotfix/1.2.1
 ```
+
+## Log as graph
+
+```bash
+git log --oneline --graph --decorate --all
+```
