@@ -63,3 +63,9 @@ git worktree add ../hotfix hotfix/1.2.1
 ```bash
 git log --oneline --graph --decorate --all
 ```
+
+## Cherry-pick a range
+
+```bash
+git cherry-pick A^..B
+```
