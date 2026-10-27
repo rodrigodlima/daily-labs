@@ -76,3 +76,9 @@ git cherry-pick A^..B
 git config --global gpg.format ssh
 git config --global user.signingkey ~/.ssh/id_ed25519.pub
 ```
+
+## Search the history for a string
+
+```bash
+git log -S 'functionName' --oneline
+```
