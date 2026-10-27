@@ -65,3 +65,9 @@ docker history --no-trunc <image>
 RUN useradd -r -u 10001 app
 USER 10001
 ```
+
+## Follow logs with timestamps
+
+```bash
+docker logs -f --since 10m -t <id>
+```
