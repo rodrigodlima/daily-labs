@@ -71,3 +71,9 @@ USER 10001
 ```bash
 docker logs -f --since 10m -t <id>
 ```
+
+## Disk usage overview
+
+```bash
+docker system df -v
+```
