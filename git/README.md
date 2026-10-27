@@ -69,3 +69,10 @@ git log --oneline --graph --decorate --all
 ```bash
 git cherry-pick A^..B
 ```
+
+## Sign commits with SSH key
+
+```bash
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+```
