@@ -77,3 +77,9 @@ docker logs -f --since 10m -t <id>
 ```bash
 docker system df -v
 ```
+
+## Healthcheck in Dockerfile
+
+```bash
+HEALTHCHECK --interval=30s --timeout=3s CMD curl -fs http://localhost:8080/health || exit 1
+```
