@@ -61,3 +61,9 @@ kubectl rollout undo deploy/<name> --to-revision=2
 ```bash
 kubectl get pods -A --field-selector=status.phase!=Running
 ```
+
+## Decode a secret
+
+```bash
+kubectl get secret <name> -o jsonpath='{.data.password}' | base64 -d
+```
