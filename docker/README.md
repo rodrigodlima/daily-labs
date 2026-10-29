@@ -83,3 +83,9 @@ docker system df -v
 ```bash
 HEALTHCHECK --interval=30s --timeout=3s CMD curl -fs http://localhost:8080/health || exit 1
 ```
+
+## Use .dockerignore
+
+```bash
+Keep .git, node_modules, .venv and build outputs out of the build context to speed up builds.
+```
