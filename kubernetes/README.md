@@ -55,3 +55,9 @@ kubectl drain <node> --ignore-daemonsets --delete-emptydir-data
 ```bash
 kubectl rollout undo deploy/<name> --to-revision=2
 ```
+
+## Pods not running across the cluster
+
+```bash
+kubectl get pods -A --field-selector=status.phase!=Running
+```
