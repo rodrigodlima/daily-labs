@@ -7,8 +7,8 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 |---|---|
 | [Linux](linux/README.md) | 13 |
 | [Git](git/README.md) | 13 |
-| [Docker](docker/README.md) | 11 |
-| [Kubernetes](kubernetes/README.md) | 9 |
+| [Docker](docker/README.md) | 13 |
+| [Kubernetes](kubernetes/README.md) | 11 |
 | [Bash](bash/README.md) | 9 |
 | [AWS](aws/README.md) | 9 |
 | [Terraform](terraform/README.md) | 9 |
