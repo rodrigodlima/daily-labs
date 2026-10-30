@@ -67,3 +67,9 @@ kubectl get pods -A --field-selector=status.phase!=Running
 ```bash
 kubectl get secret <name> -o jsonpath='{.data.password}' | base64 -d
 ```
+
+## Switch default namespace
+
+```bash
+kubectl config set-context --current --namespace=<ns>
+```
