@@ -73,3 +73,9 @@ kubectl get secret <name> -o jsonpath='{.data.password}' | base64 -d
 ```bash
 kubectl config set-context --current --namespace=<ns>
 ```
+
+## Create a kind cluster
+
+```bash
+kind create cluster --name lab --image kindest/node:v1.31.0
+```
