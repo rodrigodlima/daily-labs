@@ -70,3 +70,9 @@ echo "took ${SECONDS}s"
 file="report.txt"
 echo "${file%.txt}.csv"
 ```
+
+## Read a value with prompt
+
+```bash
+read -rp 'Environment: ' env
+```
