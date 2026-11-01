@@ -63,3 +63,10 @@ SECONDS=0
 # ... work ...
 echo "took ${SECONDS}s"
 ```
+
+## String replace in variable
+
+```bash
+file="report.txt"
+echo "${file%.txt}.csv"
+```
