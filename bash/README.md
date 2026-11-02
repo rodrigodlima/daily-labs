@@ -76,3 +76,9 @@ echo "${file%.txt}.csv"
 ```bash
 read -rp 'Environment: ' env
 ```
+
+## Retry with backoff
+
+```bash
+for i in 1 2 3 4 5; do cmd && break; sleep $((2**i)); done
+```
