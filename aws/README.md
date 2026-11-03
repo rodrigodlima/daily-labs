@@ -55,3 +55,9 @@ aws sts assume-role --role-arn arn:aws:iam::<acct>:role/<role> --role-session-na
 ```bash
 aws ec2 describe-instances --query 'Reservations[].Instances[?!not_null(Tags[?Key==`Owner`])].InstanceId' --output text
 ```
+
+## List regions
+
+```bash
+aws ec2 describe-regions --query 'Regions[].RegionName' --output text
+```
