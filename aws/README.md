@@ -61,3 +61,9 @@ aws ec2 describe-instances --query 'Reservations[].Instances[?!not_null(Tags[?Ke
 ```bash
 aws ec2 describe-regions --query 'Regions[].RegionName' --output text
 ```
+
+## Copy with sync and delete
+
+```bash
+aws s3 sync ./dist s3://<bucket> --delete
+```
