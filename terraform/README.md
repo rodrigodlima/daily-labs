@@ -63,3 +63,9 @@ lifecycle {
 ```bash
 terraform output -raw db_password
 ```
+
+## Graph dependencies
+
+```bash
+terraform graph | dot -Tsvg > graph.svg
+```
