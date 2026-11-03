@@ -67,3 +67,9 @@ aws ec2 describe-regions --query 'Regions[].RegionName' --output text
 ```bash
 aws s3 sync ./dist s3://<bucket> --delete
 ```
+
+## Decode authorization error
+
+```bash
+aws sts decode-authorization-message --encoded-message <msg> --query DecodedMessage --output text | jq .
+```
