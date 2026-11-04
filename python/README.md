@@ -70,3 +70,9 @@ t0 = time.perf_counter()
 ...
 print(f'{time.perf_counter()-t0:.3f}s')
 ```
+
+## List comprehension with condition
+
+```python
+evens = [x for x in range(20) if x % 2 == 0]
+```
