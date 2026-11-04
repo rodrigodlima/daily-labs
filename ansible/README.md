@@ -62,3 +62,9 @@ handlers:
 ```bash
 ansible-playbook site.yml --tags nginx
 ```
+
+## Lint playbooks
+
+```bash
+ansible-lint playbooks/
+```
