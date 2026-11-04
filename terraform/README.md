@@ -69,3 +69,9 @@ terraform output -raw db_password
 ```bash
 terraform graph | dot -Tsvg > graph.svg
 ```
+
+## Check provider versions
+
+```bash
+terraform version && terraform providers
+```
