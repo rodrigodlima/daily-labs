@@ -68,3 +68,9 @@ ansible-playbook site.yml --tags nginx
 ```bash
 ansible-lint playbooks/
 ```
+
+## Create a role skeleton
+
+```bash
+ansible-galaxy role init roles/webserver
+```
