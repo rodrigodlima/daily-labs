@@ -75,3 +75,12 @@ terraform graph | dot -Tsvg > graph.svg
 ```bash
 terraform version && terraform providers
 ```
+
+## for_each over a map
+
+```hcl
+resource "aws_s3_bucket" "b" {
+  for_each = var.buckets
+  bucket   = each.value
+}
+```
