@@ -76,3 +76,10 @@ print(f'{time.perf_counter()-t0:.3f}s')
 ```python
 evens = [x for x in range(20) if x % 2 == 0]
 ```
+
+## Read env var with default
+
+```python
+import os
+port = int(os.getenv('PORT', '8080'))
+```
