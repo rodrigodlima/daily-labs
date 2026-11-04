@@ -56,3 +56,9 @@ handlers:
     groups: "{{ item.groups }}"
   loop: "{{ users }}"
 ```
+
+## Run tasks by tag
+
+```bash
+ansible-playbook site.yml --tags nginx
+```
