@@ -83,3 +83,11 @@ evens = [x for x in range(20) if x % 2 == 0]
 import os
 port = int(os.getenv('PORT', '8080'))
 ```
+
+## Requests with timeout
+
+```python
+import requests
+r = requests.get(url, timeout=5)
+r.raise_for_status()
+```
