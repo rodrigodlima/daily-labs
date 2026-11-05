@@ -13,7 +13,7 @@ Daily study notes, snippets and small experiments across the tools I use day to 
 | [AWS](aws/README.md) | 12 |
 | [Terraform](terraform/README.md) | 12 |
 | [Ansible](ansible/README.md) | 11 |
-| [Python](python/README.md) | 10 |
+| [Python](python/README.md) | 11 |
 | [Java](java/README.md) | 8 |
 | [Rust](rust/README.md) | 8 |
 | [SRE](sre/README.md) | 7 |
