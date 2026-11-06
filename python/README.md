@@ -91,3 +91,9 @@ import requests
 r = requests.get(url, timeout=5)
 r.raise_for_status()
 ```
+
+## Format with uv
+
+```python
+uv run ruff format .
+```
