@@ -58,3 +58,12 @@ sealed interface Shape permits Circle, Square {}
 Map<String, Long> c = list.stream()
     .collect(Collectors.groupingBy(User::city, Collectors.counting()));
 ```
+
+## Optional chain
+
+```java
+String city = Optional.ofNullable(user)
+    .map(User::address)
+    .map(Address::city)
+    .orElse("unknown");
+```
