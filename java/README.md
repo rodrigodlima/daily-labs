@@ -67,3 +67,9 @@ String city = Optional.ofNullable(user)
     .map(Address::city)
     .orElse("unknown");
 ```
+
+## Heap dump of a running JVM
+
+```java
+jcmd <pid> GC.heap_dump /tmp/heap.hprof
+```
