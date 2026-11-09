@@ -57,3 +57,12 @@ enum AppError {
     NotFound(String),
 }
 ```
+
+## Match on enum
+
+```rust
+match cmd {
+    Cmd::Start => start(),
+    Cmd::Stop => stop(),
+}
+```
