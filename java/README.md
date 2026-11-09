@@ -73,3 +73,11 @@ String city = Optional.ofNullable(user)
 ```java
 jcmd <pid> GC.heap_dump /tmp/heap.hprof
 ```
+
+## HttpClient GET
+
+```java
+var client = HttpClient.newHttpClient();
+var req = HttpRequest.newBuilder(URI.create(url)).build();
+var body = client.send(req, BodyHandlers.ofString()).body();
+```
